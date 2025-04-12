@@ -1,6 +1,6 @@
-import Aboutsub from '@/app/components/AboutComponents/Aboutsub'
-import Footer from '@/app/components/Footer'
-import Navbar from '@/app/components/Navbar'
+import Aboutsub from '@/components/AboutComponents/Aboutsub'
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
 import React from 'react'
 
 const AboutContainer = () => {

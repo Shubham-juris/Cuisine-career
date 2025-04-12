@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import HeroSectionImage from '../../../../public/images/HomeImages/HeroSectionImage.jpg';
+import HeroSectionImage from '../../../public/images/HomeImages/HeroSectionImage.jpg';
 
 const HeroSection = () => {
     return (

@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
-import AboutSectionImage from '../../../../public/images/HomeImages/AboutSectionImage.jpg';
+import AboutSectionImage from '../../../public/images/HomeImages/AboutSectionImage.jpg';
 
 const AboutUsSection = () => {
   return (
