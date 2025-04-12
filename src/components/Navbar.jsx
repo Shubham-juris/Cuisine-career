@@ -36,7 +36,7 @@ const Navbar = () => {
         <ul className="flex flex-wrap justify-center gap-4 md:gap-8 px-4 md:px-8 py-3 text-sm md:text-base font-medium text-gray-700">
           <li><a href="#" className="hover:text-[#85754D]">Home</a></li>
           <li><Link href="/about" className="hover:text-[#85754D]">About</Link></li>
-          <li><a href="#" className="hover:text-[#85754D]">View Jobs</a></li>
+          <li><Link href="/blog" className="hover:text-[#85754D]">View Jobs</Link></li>
           <li><a href="#" className="hover:text-[#85754D]">Job Seekers</a></li>
           <li><a href="#" className="hover:text-[#85754D]">Blogs</a></li>
 
