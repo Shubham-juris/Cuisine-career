@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FaChevronDown } from "react-icons/fa";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -34,7 +35,7 @@ const Navbar = () => {
       <nav className="w-full bg-gray-50">
         <ul className="flex flex-wrap justify-center gap-4 md:gap-8 px-4 md:px-8 py-3 text-sm md:text-base font-medium text-gray-700">
           <li><a href="#" className="hover:text-[#85754D]">Home</a></li>
-          <li><a href="#" className="hover:text-[#85754D]">About</a></li>
+          <li><Link href="/about" className="hover:text-[#85754D]">About</Link></li>
           <li><a href="#" className="hover:text-[#85754D]">View Jobs</a></li>
           <li><a href="#" className="hover:text-[#85754D]">Job Seekers</a></li>
           <li><a href="#" className="hover:text-[#85754D]">Blogs</a></li>
