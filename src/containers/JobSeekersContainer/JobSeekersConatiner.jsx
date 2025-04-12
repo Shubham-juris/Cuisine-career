@@ -1,9 +1,15 @@
+import Footer from '@/components/Footer'
+import SearchByProvince from '@/components/JobSeekarComponents/SearchByProvince'
+import Navbar from '@/components/Navbar'
+
 import React from 'react'
 
 const JobSeekersConatiner = () => {
   return (
     <div>
-      this is job seekers container
+    <Navbar/>
+    <SearchByProvince/>
+    <Footer/>
     </div>
   )
 }
