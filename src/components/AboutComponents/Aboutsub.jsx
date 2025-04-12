@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import frontabout from '../../../../public/images/AboutImages/frontabout.jpg'
-import rightdining from '../../../../public/images/AboutImages/rightdining.jpg'
-import sustainable from '../../../../public/images/AboutImages/sustainable.jpg'
-import handshake from '../../../../public/images/AboutImages/handshake.jpg'
+import frontabout from '../../../public/images/AboutImages/frontabout.jpg'
+import rightdining from '../../../public/images/AboutImages/rightdining.jpg'
+import sustainable from '../../../public/images/AboutImages/sustainable.jpg'
+import handshake from '../../../public/images/AboutImages/handshake.jpg'
 
 const Aboutsub = () => {
   return (

@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-    import BrowseImg from '../../../../public/images/HomeImages/Browse.jpg';
-    import PostImg from '../../../../public/images/HomeImages/Post.jpg';
+    import BrowseImg from '../../../public/images/HomeImages/Browse.jpg';
+    import PostImg from '../../../public/images/HomeImages/Post.jpg';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
