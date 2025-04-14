@@ -98,8 +98,8 @@ const Aboutsub = () => {
             <h1 className='text-center text-black text-2xl mb-5'>Mission-Driven Advocacy</h1>
             <p className="text-lg leading-relaxed mb-4">
               Fusion-Foodies is more than just a job board - we are a catalyst for change.
-              We actively support the local and organic food movement, striving to make
-              a positive impact on our food system.
+              We actively  support the local and organic food movement, striving to make
+              a positive impact on our foods system.
             </p>
           </div>
         </div>
@@ -109,7 +109,9 @@ const Aboutsub = () => {
       <div className="bg-gray-50 text-center py-10">
         <div>
           <h2 className="text-3xl font-bold text-gray-800 mb-4">OUR MISSION</h2>
-          <div className="w-12 h-1 bg-gray-800 rounded-full mx-auto mb-0"></div>
+          <div className="w-12 h-1 bg-gray-800 rounded-full mx-auto mb-0">
+
+          </div>
         </div>
       </div>
       <div className='text-center mt-6'>
@@ -118,6 +120,7 @@ const Aboutsub = () => {
             Inspire and assist individuals in finding meaningful work with local
             food organizations, farms, businesses, schools, and institutions.
           </li>
+          
           <li className="mb-2">
             Support local, sustainable, and organic food projects and initiatives.
           </li>

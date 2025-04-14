@@ -54,8 +54,10 @@ const Navbar = () => {
         <ul className="flex flex-col lg:flex-row flex-wrap justify-center gap-4 md:gap-8 px-4 md:px-8 py-3 text-sm md:text-base font-medium text-gray-700">
           <li><Link href="/" className="hover:text-[#85754D]">Home</Link></li>
           <li><Link href="/about" className="hover:text-[#85754D]">About</Link></li>
+
           <li><Link href="/jobs" className="hover:text-[#85754D]">View Jobs</Link></li>
           <li><Link href="/jobseeker" className="hover:text-[#85754D]">Job Seekers</Link></li>
+
           <li><a href="#" className="hover:text-[#85754D]">Blogs</a></li>
 
           {/* Employers with dropdown icon */}
