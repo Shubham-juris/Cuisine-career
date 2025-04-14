@@ -36,6 +36,7 @@ export default function Posting() {
         <div>
           <h3 className="text-xl font-semibold text-gray-900">Modify Your Posting</h3>
           <p className="text-gray-700 mt-2">
+            
             Tailor your posting anytime to meet your evolving needs. Access all the necessary tools for revision and management in the "Thank you for posting" message we sent when your posting went live. Reach out to us for further assistance if needed.
           </p>
         </div>
