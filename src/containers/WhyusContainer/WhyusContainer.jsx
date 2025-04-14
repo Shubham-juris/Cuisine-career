@@ -1,8 +1,8 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import AdvocacySatisfactionSection from '@/components/WhyusComponents/AdvocacySatisfactionSection'
-import FeatureSection from '@/components/WhyusComponents/FeatureSection'
-import WhyPostHereSection from '@/components/WhyusComponents/WhyPostHereSection'
+import AdvocacySatisfactionSection from '@/components/EmployersComponents/WhyusComponents/AdvocacySatisfactionSection'
+import FeatureSection from '@/components/EmployersComponents/WhyusComponents/FeatureSection'
+import WhyPostHereSection from '@/components/EmployersComponents/WhyusComponents/WhyPostHereSection'
 import React from 'react'
 
 const WhyusContainer = () => {

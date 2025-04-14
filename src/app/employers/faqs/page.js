@@ -1,11 +1,10 @@
-
-import BlogContainer from '@/containers/BlogContainer/BlogContainer'
+import FaqsConatiner from '@/containers/FaqsContainer/FaqsConatiner'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <BlogContainer/>
+      <FaqsConatiner/>
     </div>
   )
 }
