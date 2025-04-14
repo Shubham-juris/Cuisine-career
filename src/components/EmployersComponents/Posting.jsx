@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function OpportunitiesSection() {
+export default function Posting() {
   return (
     <section className="bg-white text-gray-800 py-12 px-4 md:px-16">
       <div className="text-center mb-10">

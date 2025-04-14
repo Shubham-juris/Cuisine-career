@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image';
-import whyus from'../../../public/images/WelcomeImages/whyus.jpg';
+import whyus from'../../../../public/images/WelcomeImages/whyus.jpg';
 
 const WhyPostHereSection = () => {
   return (
@@ -10,7 +10,7 @@ const WhyPostHereSection = () => {
       {/* Image Banner */}
       <div className="relative w-full h-64 md:h-96 overflow-hidden">
         <Image
-          src={whyus} // Replace with your actual image URL
+          src={whyus}
           alt="Food Preparation"
           className="absolute inset-0 w-full h-full object-cover"
         />

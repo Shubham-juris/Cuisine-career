@@ -1,16 +1,16 @@
 import Footer from '@/components/Footer'
+import ManitobaSection from '@/components/LocationComponents/ManitobaSection'
 import Navbar from '@/components/Navbar'
-import Posting from '@/components/Posting'
 import React from 'react'
 
-const page = () => {
+const ManitobaContainer = () => {
   return (
     <div>
       <Navbar/>
-      <Posting/>
+      <ManitobaSection/>
       <Footer/>
     </div>
   )
 }
 
-export default page
+export default ManitobaContainer
