@@ -1,4 +1,7 @@
+ 
 import NewbrunswickContainer from '@/containers/LocationContainer/NewbrunswickContainer/NewbrunswickContainer'
+
+
 import React from 'react'
 
 const page = () => {
