@@ -1,4 +1,4 @@
-import NewbrunswickContainer from '@/containers/NewbrunswickContainer/NewbrunswickContainer'
+import NewbrunswickContainer from '@/containers/LocationContainer/NewbrunswickContainer/NewbrunswickContainer'
 import React from 'react'
 
 const page = () => {
