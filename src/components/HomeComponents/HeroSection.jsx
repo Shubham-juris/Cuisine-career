@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import HeroSectionImage from '../../../public/images/HomeImages/HeroSectionImage.jpg';
+import Link from 'next/link';
 
 const HeroSection = () => {
     return (
@@ -27,12 +28,12 @@ const HeroSection = () => {
                     Discover fulfilling opportunities in food, farms, nonprofits, education,
                     and government careers.
                 </p>
-                <a
-                    href="/careers"
+                <Link
+                    href="/career"
                     className="inline-block bg-[#1f1f1f] hover:bg-[#85754D] text-white text-sm font-semibold px-6 py-3 rounded transition"
                 >
                     EXPLORE CAREERS
-                </a>
+                </Link>
             </div>
 
         </section>
