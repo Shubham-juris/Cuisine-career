@@ -16,6 +16,7 @@ export default function Posting() {
         <div>
           <h3 className="text-xl font-semibold text-gray-900">Post Your Opportunity</h3>
           <p className="text-gray-700 mt-2">
+            
             Easily share your job, contract, RFP, board position, internship, or volunteer opportunity using our user-friendly "Post a Job" page. 
             Alternatively, you can email your posting to: 
             <a href="mailto:cuisineCareers@fusion-foodies.com" className="text-blue-600 underline ml-1">cuisineCareers@fusion-foodies.com</a>.
@@ -27,6 +28,7 @@ export default function Posting() {
         <div>
           <h3 className="text-xl font-semibold text-gray-900">View Your Posting</h3>
           <p className="text-gray-700 mt-2">
+
             Sit back as our dedicated staff prepare and distribute your posting promptly. Receive a confirmation email with a direct link to your posting, allowing you to revise, share, or manage it with ease. Keep an eye out for your posting in our job listings.
           </p>
           <button className="mt-4 bg-[#d6c7b0] hover:bg-[#c8b49a] text-black px-6 py-2 rounded shadow-sm transition">VIEW POSTING</button>
@@ -36,6 +38,7 @@ export default function Posting() {
         <div>
           <h3 className="text-xl font-semibold text-gray-900">Modify Your Posting</h3>
           <p className="text-gray-700 mt-2">
+
             Tailor your posting anytime to meet your evolving needs. Access all the necessary tools for revision and management in the "Thank you for posting" message we sent when your posting went live. Reach out to us for further assistance if needed.
           </p>
         </div>
