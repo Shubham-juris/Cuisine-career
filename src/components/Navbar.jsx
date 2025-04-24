@@ -15,7 +15,10 @@ const Navbar = () => {
   return (
     <header className="w-full bg-white border-b border-gray-200 shadow-sm">
       {/* Top Section */}
-      <div className="relative w-full px-4 md:px-8 py-3">
+      <div className="max-w-7xl mx-auto">
+
+     
+      <div className="relative max-w-7xl flex  px-4 md:px-8 py-3">
         <div className="flex items-center justify-between">
           {/* Title */}
           <h1 className="text-lg md:text-4xl font-semibold tracking-wide text-[#85754D] uppercase 
@@ -45,6 +48,7 @@ const Navbar = () => {
             <FaXTwitter />
           </a>
         </div>
+      </div>
       </div>
 
       {/* Bottom Nav */}
