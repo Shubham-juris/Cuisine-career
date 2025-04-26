@@ -2,6 +2,9 @@ export default function HiringSection() {
     return (
       <section className="bg-white w-full px-4 py-4 lg:py-12 flex flex-col items-center text-center">
         {/* Title */}
+        <div className="flex flex-col items-center justify-center mx-auto max-w-7xl">
+
+        
         <h2 className="text-2xl md:text-4xl font-semibold text-[#a99b8f] uppercase tracking-wide">
           EXPERIENCE HASSLE-FREE HIRING WITH FUSION-FOODIES
         </h2>
@@ -17,6 +20,7 @@ export default function HiringSection() {
             supporting your organization and the community in a sustainable manner. We understand that ‘free’ doesn’t
             always equate to sustainability, which is why we offer modest rates that reflect the value of our service.
           </p>
+        </div>
         </div>
       </section>
     );

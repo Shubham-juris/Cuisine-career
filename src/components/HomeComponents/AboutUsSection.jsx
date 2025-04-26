@@ -6,8 +6,11 @@ import AboutSectionImage from '../../../public/images/HomeImages/AboutSectionIma
 
 const AboutUsSection = () => {
   return (
-    <section className="px-4 sm:px-6 lg:px-13 py-16 flex flex-col gap-15 items-center bg-white text-[#1f1f1f]">
+    <section className="px-4 sm:px-6 lg:px-13 py-16  bg-white text-[#1f1f1f]">
       {/* Heading */}
+      <div className='flex justify-center items-center mx-auto max-w-7xl'>
+<div className='flex flex-col gap-15 items-center '>
+      
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -54,6 +57,8 @@ const AboutUsSection = () => {
             With a deep appreciation for the art of cooking and a commitment to supporting the culinary community, Fusion Foodies is more than just a job-seeking website. We’re a platform built by food enthusiasts, for food enthusiasts. Our mission is simple: to empower chefs and kitchen professionals to find meaningful employment opportunities that align with their skills, aspirations, and values.
           </p>
         </motion.div>
+      </div>
+      </div>
       </div>
     </section>
   );

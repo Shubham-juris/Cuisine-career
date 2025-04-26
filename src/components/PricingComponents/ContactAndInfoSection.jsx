@@ -1,6 +1,6 @@
 export default function ContactAndInfoSection() {
     return (
-      <section className="w-full bg-white px-4 py-4 lg:py-12 flex flex-col items-center">
+      <section className="w-full bg-white px-4 py-4 lg:py-12 flex flex-col justify-center mx-auto items-center">
         {/* Contact Us Section */}
         <div className="text-center mb-10">
           <h3 className="text-lg font-semibold text-black">Contact us</h3>
@@ -15,7 +15,7 @@ export default function ContactAndInfoSection() {
         </div>
   
         {/* Info Paragraph Section */}
-        <div className="bg-[#f7f7f7] w-full px-2 lg:px-52 py-5 lg:py-10 text-sm md:text-base text-gray-800 space-y-6 ">
+        <div className="bg-[#f7f7f7] w-full px-2 flex flex-col justify-center mx-auto max-w-7xl lg:px-52 py-5 lg:py-10 text-sm md:text-base text-gray-800 space-y-6 ">
           <p>
             Your posting can remain online for as long as necessary, and you have the flexibility to extend it at any time.
             In the event that initial interviews don’t yield suitable candidates, you can reopen your posting at no
