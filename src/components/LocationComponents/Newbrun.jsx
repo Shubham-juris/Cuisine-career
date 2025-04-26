@@ -169,6 +169,131 @@ const Newbrun = () => {
             'the term "Health food store" can imply either a natural / whole foods store, or a vitamin/supplement store',
         },
       },
+      local_food_section: {
+        title: "Local Food, Whole Foods, Natural Food",
+        intro:
+          "Local jobs & Self-employment: Full-time & part-time positions Companies: Natural & Organic Food Stores",
+        description:
+          "Natural food stores play a vital role in providing local, sustainable and organic food. They’re also a great way to make a living, while helping build local community. Full-time and part-time positions are available. Or, if there’s no store near you, why not figure out how to start your own?",
+        store_links: {
+          Canada: ["CHFA.ca/en/Resources/Find-a-Retailer"],
+          Ontario: [
+            "100MileNetwork.com/health-food-stores-delivery",
+            "NiceLocal.ca/ontario-ca/shops/type/natural_products/",
+          ],
+          More: [
+            "FilsingersOrganic.com/locations",
+            "OrganicTraditions.com/pages/store-locator",
+          ],
+          USA: {
+            title: "The Tofu Tollbooth (book)",
+            links: {
+              borrow: "borrow",
+              preview: "preview",
+              used: "used",
+              new: "new",
+            },
+          },
+        },
+        farmers_markets: [
+          "Newfoundland",
+          "Nova Scotia",
+          "New Brunswick",
+          "PEI",
+          "Quebec",
+          "Ontario",
+          "Manitoba",
+          "Saskatchewan",
+          "Alberta",
+          "BC",
+          "Yukon",
+        ],
+        job_section: {
+          title: "Jobs with local, organic & natural food",
+          links: [
+            "FoodWork Jobs & Internships — FoodWork.ca/Now",
+            "Food organizations in Canada (local, sustainable, organic…) — FoodWork.ca/links",
+          ],
+        },
+        start_your_own: {
+          title: "Start your own local food business or natural food store…",
+          links: [
+            "How to start a retail business in Canada",
+            "How to start a Natural food store",
+            "Resources: Canadian Federation of Independent Business | Retail Council of Canada | Canadian Health Food Association",
+            "Small business start-up assistance & resources (1) (2)",
+            "How to… (google search)",
+          ],
+        },
+        definition: {
+          title: "What is Natural food?",
+          links: ["Natural food", "Organic food", "Local food", "Healthy diet"],
+          note:
+            'the term "Health food store" can imply either a natural / whole foods store, or a vitamin/supplement store',
+        },
+      }, local_food_section: {
+        title: "Local Food, Whole Foods, Natural Food",
+        intro:
+          "Local jobs & Self-employment: Full-time & part-time positions Companies: Natural & Organic Food Stores",
+        description:
+          "Natural food stores play a vital role in providing local, sustainable and organic food. They’re also a great way to make a living, while helping build local community. Full-time and part-time positions are available. Or, if there’s no store near you, why not figure out how to start your own?",
+        store_links: {
+          Canada: ["CHFA.ca/en/Resources/Find-a-Retailer"],
+          Ontario: [
+            "100MileNetwork.com/health-food-stores-delivery",
+            "NiceLocal.ca/ontario-ca/shops/type/natural_products/",
+          ],
+          More: [
+            "FilsingersOrganic.com/locations",
+            "OrganicTraditions.com/pages/store-locator",
+          ],
+          USA: {
+            title: "The Tofu Tollbooth (book)",
+            links: {
+              borrow: "borrow",
+              preview: "preview",
+              used: "used",
+              new: "new",
+            },
+          },
+        },
+        farmers_markets: [
+          "Newfoundland",
+          "Nova Scotia",
+          "New Brunswick",
+          "PEI",
+          "Quebec",
+          "Ontario",
+          "Manitoba",
+          "Saskatchewan",
+          "Alberta",
+          "BC",
+          "Yukon",
+        ],
+        job_section: {
+          title: "Jobs with local, organic & natural food",
+          links: [
+            "FoodWork Jobs & Internships — FoodWork.ca/Now",
+            "Food organizations in Canada (local, sustainable, organic…) — FoodWork.ca/links",
+          ],
+        },
+        start_your_own: {
+          title: "Start your own local food business or natural food store…",
+          links: [
+            "How to start a retail business in Canada",
+            "How to start a Natural food store",
+            "Resources: Canadian Federation of Independent Business | Retail Council of Canada | Canadian Health Food Association",
+            "Small business start-up assistance & resources (1) (2)",
+            "How to… (google search)",
+          ],
+        },
+        definition: {
+          title: "What is Natural food?",
+          links: ["Natural food", "Organic food", "Local food", "Healthy diet"],
+          note:
+            'the term "Health food store" can imply either a natural / whole foods store, or a vitamin/supplement store',
+        },
+      },
   };
 
   const { local_food_section, job_posting } = data;
