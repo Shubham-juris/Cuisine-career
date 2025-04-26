@@ -1,16 +1,17 @@
+
 import Footer from '@/components/Footer'
+import Newfoundland from '@/components/LocationComponents/Newfoundland'
 import Navbar from '@/components/Navbar'
-import Newbrun from '@/components/NewbrunswickComponents/Newbrun'
 import React from 'react'
 
-const NewbrunswickContainer = () => {
+const NewfoundlandContainer = () => {
   return (
     <div>
       <Navbar/>
-      <Newbrun/>
+      <Newfoundland/>
       <Footer/>
     </div>
   )
 }
 
-export default NewbrunswickContainer
+export default NewfoundlandContainer

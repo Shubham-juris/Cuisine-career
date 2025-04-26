@@ -29,7 +29,9 @@ const HeroSection = () => {
                     and government careers.
                 </p>
                 <Link
+
                     href="/carreer"
+
                     className="inline-block bg-[#1f1f1f] hover:bg-[#85754D] text-white text-sm font-semibold px-6 py-3 rounded transition"
                 >
                     EXPLORE CAREERS
