@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
+
 
 export default function Posting() {
   return (
@@ -21,7 +23,7 @@ export default function Posting() {
             Alternatively, you can email your posting to: 
             <a href="mailto:cuisineCareers@fusion-foodies.com" className="text-blue-600 underline ml-1">cuisineCareers@fusion-foodies.com</a>.
           </p>
-          <button className="mt-4 bg-[#d6c7b0] hover:bg-[#c8b49a] text-black px-6 py-2 rounded shadow-sm transition">POST</button>
+         <Link href='jobs'><button className="mt-4 bg-[#d6c7b0] hover:bg-[#c8b49a] text-black px-6 py-2 rounded shadow-sm transition">POST</button></Link> 
         </div>
 
         {/* View Posting Section */}

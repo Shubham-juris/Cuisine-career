@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
     import BrowseImg from '../../../public/images/HomeImages/Browse.jpg';
     import PostImg from '../../../public/images/HomeImages/Post.jpg';
+import Link from 'next/link';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -39,12 +40,12 @@ const WhyPostWithUsSection = () => {
           </li>
         </ul>
 
-        <a
+        <Link
           href="/jobs"
           className="mt-6 inline-block bg-[#c6b89e] hover:bg-[#b5a487] text-black font-semibold px-6 py-3 rounded transition duration-300"
         >
           VIEW JOBS
-        </a>
+        </Link>
       </motion.div>
 
       {/* Bottom Grid */}

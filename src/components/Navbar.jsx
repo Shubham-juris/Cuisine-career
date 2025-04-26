@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { FaFacebookF, FaInstagram, FaXTwitter, FaBars } from "react-icons/fa6";
 import { FaChevronDown } from "react-icons/fa";
 import Link from "next/link";
+import logo from '../../public/logo.webp'
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,31 +15,19 @@ const Navbar = () => {
   const closeDropdown = () => setIsOpen(false);
 
   return (
-    <header className="w-full bg-white border-b border-gray-200 shadow-sm">
+    <header className="w-full sticky top-0 bg-white border-b border-gray-200 shadow-sm z-50">
+
       {/* Top Section */}
-      <div className="max-w-7xl mx-auto">
-
-     
-      <div className="relative max-w-7xl flex  px-4 md:px-8 py-3">
-        <div className="flex items-center justify-between">
-          {/* Title */}
-          <h1 className="text-lg md:text-4xl font-semibold tracking-wide text-[#85754D] uppercase 
-            lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
-            Cuisine Career Job Board
-          </h1>
-
-          {/* Hamburger Menu */}
-          <button
-            className="lg:hidden text-2xl text-gray-700"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <FaBars />
-          </button>
-        </div>
+      <div className="max-w-7xl mx-auto w-full px-4 md:px-8 py-3 flex justify-between items-center relative">
+        {/* Title */}
+        <Image src={logo} className="w-10 h-10" alt='logo'/>
+        <h1 className="hidden md:block md:text-4xl font-semibold tracking-wide text-[#85754D] uppercase 
+          lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
+              Cuisine Career Job Board
+        </h1>
 
         {/* Social Icons */}
-        <div className="hidden lg:flex gap-4 text-lg text-gray-700 mt-3">
+        <div className="hidden lg:flex gap-4 text-lg text-gray-700">
           <a href="#" className="rounded-full p-1 text-white bg-blue-600">
             <FaFacebookF />
           </a>
@@ -48,7 +38,15 @@ const Navbar = () => {
             <FaXTwitter />
           </a>
         </div>
-      </div>
+
+        {/* Hamburger Menu */}
+        <button
+          className="lg:hidden text-2xl text-gray-700"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          <FaBars />
+        </button>
       </div>
 
       {/* Bottom Nav */}
