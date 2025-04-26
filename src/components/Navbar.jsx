@@ -20,11 +20,11 @@ const Navbar = () => {
       {/* Top Section */}
       <div className="max-w-7xl mx-auto w-full px-4 md:px-8 py-3 flex justify-between items-center relative">
         {/* Title */}
-        <Image src={logo} className="w-10 h-10" alt='logo'/>
+      <Link href='/'> <Image src={logo} className="w-10 h-10" alt='logo'/>
         <h1 className="hidden md:block md:text-4xl font-semibold tracking-wide text-[#85754D] uppercase 
           lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
               Cuisine Career Job Board
-        </h1>
+        </h1></Link> 
 
         {/* Social Icons */}
         <div className="hidden lg:flex gap-4 text-lg text-gray-700">
