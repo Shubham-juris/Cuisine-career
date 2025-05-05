@@ -11,6 +11,7 @@ export default function Footer() {
               className="text-blue-600 hover:underline"
             >
               cuisineCareers@fusion-foodies.com
+                <br></br>Address-Calgary,Alberta.
             </a>
           </p>
         </div>
